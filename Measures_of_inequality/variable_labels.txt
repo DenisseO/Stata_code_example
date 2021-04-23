@@ -1,0 +1,26 @@
+describe
+			
+variable name   type	format	label	variable label
+					
+hhid            str16	%16s		Household identifier
+country         str12	%12s		Country that the household is from
+year            int	%9.0g		Year the data was collected
+hhsize          byte	%8.0g		Number of members of the household
+weight_final    float	%9.0g		Household weight
+consumption_t~l1float	%9.0g		Total household consumption per month
+consumption_pc  float	%9.0g		Average per capita household consumption per month
+poor1           byte	%9.0g		Poverty indicator: household lives beneath the $1 a day poverty	line
+poor2           byte	%9.0g		Poverty indicator: household lives beneath the $2 a day poverty	line
+own_radio       byte	%9.0g	dummy	Radio owner: Do you have a radio in your home? (Dummy)
+own_tv          byte	%9.0g	dummy	Television owner: Do you have a TV in your home? (Dummy)
+own_bike        byte	%9.0g	dummy	Bicycle owner: Do you have a bicycle in your home? (Dummy)
+own_land        byte	%9.0g	dummy	Land owner: Do you own land? (Dummy)
+urban           byte	%9.0g	dummy	Whether household lives in an urban area (Dummy)
+foodconsumption double	%9.0g		Percent of income spent on food
+sinconsumption  double	%9.0g		Percent of income spent on alcohol/tobacco
+educationcons~n double	%9.0g		Percent of income spent on education
+healthexpendi~e double	%9.0g		Percent of income spent on health
+entertainexpe~e double	%9.0g		Percent of income spent on entertainment
+entertainexp_~y byte	%9.0g	dummy	Household had any entertainment expenditure? (Dummy)
+festivalexpen~e double	%9.0g		Percent of income spent on festival
+festivalexp_any byte	%9.0g	dummy	Household had any festival expenditure? (Dummy)
